@@ -9,6 +9,7 @@
       href="/img/cloudyweather_cloud_inpart_day_wind_thunder_sunny_rain_darkness_nublad_1459.png"
     />
     <link rel="stylesheet" href="./assets/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,12 +42,18 @@
       <div class="weather">
         <h2 class="city">Weather in Denver</h2>
         <h1 class="temp">51°C</h1>
-        <img src="" alt="" class="icon" />
-        <div class="description">Cloudy</div>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n@2x.png"
+            alt=""
+            class="icon"
+          />
+          <div class="description">Cloudy</div>
+        </div>
         <div class="humidity">Humidity 60%</div>
-        <div class="wind">6 kmph</div>
+        <div class="wind">6 mph</div>
       </div>
     </div>
-    <script src="./assets/script.js"></script>
   </body>
+  <script src="./assets/script.js" defer></script>
 </html>
